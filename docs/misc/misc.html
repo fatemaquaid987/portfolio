@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Fatema's Creations_Miscellaneous Memos </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../style.css'/>
+    <link rel='stylesheet' href='../style2.css'/>
+  </head>
+  <body id = 'misc'>
+    <div class="topnav" id="myTopnav">
+      <a href='../index.html' >Home</a>
+      <a href='../technical/tech.html'>Techno Therapy</a>
+      <a href='../arts/arts.html'>Artsy Adventures</a>
+      <a href='../digital/digital.html'>Digital Dreams</a>
+      <a href='misc.html' class = "active">Miscellaneous Memos</a>
+      <a href ='../about.html'>About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class='header'>
+      <h1>Miscellaneous Memos</h1>
+      <p> This page contains my projects belonging to different courseworks.</p>
+    </div>
+    <div class= 'page'>
+      <table>
+        <tr class = 'pink_row'>
+          <td>
+            <img id = music src='music.png' alt= 'A cover art displaying various Pakistani cultures'/>
+          </td>
+          <td>
+            <p class = project_name>Folk Music of Pakistan </p>
+            <p>This is the cover art for my Music Mixtape which I created as part of my 'Intro to World Music' class in Spring 2019.
+            This cover art displays various Pakistani folk cultures, dresses and, musical instruments.</p>
+            <p>You could read the liner notes and access the mixtape<a class = 'website' href='Linernotes.docx'>here</a>.</p>
+          </td>
+        </tr>
+      </table>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

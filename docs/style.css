@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Solway|Tomorrow:400,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Solway', serif;
+}
+
+#hello {
+  color:#eb839b;
+  margin-bottom: 0;
+  font-style: italic;
+}
+h1, p {
+  text-align: center;
+  color: #95d4e6;
+}
+p {
+   padding: 20px 0 0 10px;  /* Top  Right  Bottom  Left */
+   color: #95d4e6;
+}
+#intro {
+  /*font-style: italic;*/
+  font-weight: bold;
+}
+h1 {
+  padding: 60px 0 10px 0;
+  color: #e39d05;
+  text-shadow: 5px 4px 10px black;
+  font-size: 50px;
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: bold;
+  /*border-bottom: 1px solid #5D6063;*/
+}
+
+body {
+  background-image: url('purple_back3.png');
+  background-repeat: no-repeat;
+  background-color: #31213e;
+  font-family: Georgia;
+
+}
+.button{
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+.btns {
+  padding: 20px;
+  width : 150 px;
+  font-weight: bold;
+}
+.b1:link,
+.b1:visited,
+.b1:active,
+.b1:visited:active{
+  background-image: url('brush.png');
+}
+.b1:hover,
+.b1:visited:hover {
+  background-image: url('brush2.png');
+}
+
+.b2:link,
+.b2:visited,
+.b2:active,
+.b2:visited:active {
+  background-image: url('game.png');
+
+}
+.b2:hover,
+.b2:visited:hover {
+    background-image: url('game2.png');
+}
+
+.b3:link,
+.b3:visited,
+.b3:active,
+.b3:visited:active {
+  background-image: url('disk.png');
+
+}
+.b3:hover,
+.b3:visited:hover {
+  background-image: url('disk2.png');
+}
+
+.b4:link,
+.b4:visited,
+.b4:active,
+.b4:visited:active
+ {
+
+  background-image: url('instrument.png');
+
+}
+.b4:hover,
+.b4:visited:hover {
+  background-image: url('instrument2.png');
+}
+
+.page {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header, .content{
+  margin: 0 auto;
+
+}
+.content{
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+.header{
+  padding: 50px 0 20px 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #28142b;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#31213e;
+  color: #e39d05;
+}
+
+.topnav a.active {
+  background-color: #e39d05;
+  color: #cf4263;
+}
+
+.topnav .icon {
+  display: none;
+}
+#arts{
+  background-image: url('arts/artback.jpg');
+}
+
+#tech{
+  background-image: url('technical/tech.jpg');
+}
+#digital{
+  background-image: url('digital/back.jpg');
+}
+#misc{
+  background-image: url('misc/back.jpg');
+}
+#about{
+  background-image: url('wood.jpg');
+
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .btns{
+    width: 100%
+  }
+  .button{
+    font-size: 13px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .btns{
+    width: 50%
+  }
+  .button{
+    font-size: 15px;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .btns {
+    width: 25%
+  }
+
+}

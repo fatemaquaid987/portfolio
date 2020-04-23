@@ -1,0 +1,242 @@
+body {
+  background-color: #31213e;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: none;
+}
+
+h1{
+  padding: 30px 0 10px 0;;
+}
+
+#headshot{
+  border: 10px solid #332401;
+  box-shadow: 0 10px 25px #19181a;
+  position:relative;
+  margin: 0 auto;
+  /*padding: 20px 0 0 0;*/
+}
+
+
+.pink_row{
+  background-color:#28142b;
+}
+.blue_row{
+  background-color: #31213e;
+}
+
+.image_sec{
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  margin: 0 auto;
+  background-color:#31213e;
+  box-shadow: 5px 10px 25px #000000;
+  border: 2px solid #28142b;
+  color: #000000;
+}
+.no_sec{
+  padding: 20px 10px 10px 10px;
+  margin: 0 auto;
+
+}
+strong{
+  color: red;
+  font-weight: bold;
+}
+#desc{
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #31213e;
+  font-weight: bold;
+}
+.header, .header_about{
+  background-color: #31213e;
+  background-image: none;
+  box-shadow: 0 10px 25px #19181a;
+  position:relative;
+  z-index:2;
+  padding: 1px 0 10px 0;
+  margin: 0, 5px, 0, 0;
+}
+.header_about{
+  padding: 5px
+}
+
+
+#codher, #autocapture, #crappybirds,#stacks, #spiral, #maze,
+#lighting, #budget, #chat, #database,#CBIR,
+#bowling, #battle, #catering, #headshot{
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+#horse, #mother, #hair,#saveearth,#haunted,#fall, #grisaille,#abstract, #music,
+#wedding,#calligraphy, #vases , #promise, #potrait, #taylor, #value, #still{
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+#haunted{
+  position:relative;
+  top:0;
+  left:0;
+}
+#audio{
+  position: relative;
+  width: 400px;
+  left: 40px;
+  bottom: 40px;
+  height: 20px;
+}
+
+table{
+  border-spacing:0 10px;
+}
+tr{
+  box-shadow: 0px 5px 25px 3px #000000;
+}
+td {
+  /*border: 2px solid #eb839b;*/
+  padding: 10px;
+  color: #31213e;
+  max-width: 520px;
+}
+.website{
+  padding: inherit;
+  color:#eb839b;
+}
+.website:hover, .website:visited:hover{
+  color:#ad076b;
+}
+.website:visited{
+  color:#2362ba;
+}
+
+td p{
+  /*color: #31213e;*/
+  text-align: justify;
+  font-size: 15px;
+}
+
+.project_name{
+  color:#eb839b;
+  /*#ffb8d9;*/
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  table{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    text-align: center;
+  }
+  h1{
+    font-size: 30px;
+  }
+  #crappybirds, #stacks, #spiral, #maze,
+  #lighting, #budget, #chat, #database,#CBIR,
+  #bowling, #battle, #catering,
+  #codher, #autocapture, #headshot{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #horse, #mother, #hair,#saveearth,#haunted,#fall, #grisaille,#abstract, #wedding,
+  #calligraphy, #vases , #promise, #potrait, #taylor, #value, #still, #haunted #music{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  #headshot{
+    border: 5px solid #332401;
+    width: auto;
+    height: 100px;
+  }
+
+  td{
+    padding: 5px;
+    max-width: 210px;
+  }
+  td p{
+    font-size: 10px;
+  }
+  .project_name{
+    font-size: 12px;
+  }
+  #audio{
+    position: relative;
+    width: 100px;
+    left: 3px;
+    bottom: 35px;
+
+
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+
+  h1{
+    font-size: 35px;
+  }
+
+  table{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    text-align: center;
+  }
+
+  td{
+     max-width: 320px;
+  }
+  #crappybirds, #stacks, #spiral, #maze,
+  #lighting, #budget, #chat, #database,#CBIR,
+  #bowling, #battle, #catering,
+  #codher, #autocapture, #headshot{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #fall, #grisaille,#abstract, #wedding,  #horse, #mother, #hair,#saveearth, #music,
+  #calligraphy, #vases , #promise, #potrait, #taylor, #value, #still, #haunted{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  #headshot{
+    border: 5px solid #332401;
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+
+  }
+  .project_name{
+    font-size: 20px;
+  }
+  #audio{
+    position: relative;
+    width: 200px;
+    left: 8px;
+    bottom: 40px;
+
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  h1{
+    font-size: 40px;
+  }
+}

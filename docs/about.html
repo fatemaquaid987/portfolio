@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Fatema's Creations_Artsy Adventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='style.css'/>
+    <link rel='stylesheet' href='style2.css'/>
+  </head>
+  <body id="about">
+    <div class="topnav" id="myTopnav">
+      <a href='index.html' >Home</a>
+      <a href='arts/arts.html'>Artsy Adventures</a>
+      <a href='technical/tech.html'>Techno Therapy</a>
+      <a href='digital/digital.html'>Digital Dreams</a>
+      <a href='misc/misc.html'>Miscellaneous Memos</a>
+      <a href ='about.html' class="active">About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class='header'>
+      <h1 >About</h1>
+      <p >I graduated recently with my Bachelors degree in Computer Science from the University of Pittsburgh.
+          I am actively looking for full-time opportunities.You may contact me at <strong>fatemaquaid987@gmail.com</strong> </p>
+    </div>
+
+    <div class = "page">
+        <div class = 'no_sec'>
+        <img id = headshot src='fatema.jpeg' alt= 'Image of Fatema' />
+        </div>
+    </div>
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
